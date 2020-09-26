@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Chat from './Chat';
-import Sidebar from './Sidebar';
+import Chat from './components/Chat';
 import { auth } from './firebase';
-import Login from './Login';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Login from './components/Login';
+import Sidebar from './components/Sidebar';
 
 function App() {
   const [user, setUser]= useState(null)

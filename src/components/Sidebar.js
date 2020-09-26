@@ -8,7 +8,7 @@ import { SearchOutlined } from '@material-ui/icons';
 import SidebarChat from './SidebarChat';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import { auth } from './firebase';
+import { auth } from '../firebase';
 import axios from './axios'
 import Pusher from 'pusher-js'
 
